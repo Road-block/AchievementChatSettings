@@ -1,0 +1,6 @@
+package-as: AchievementChatSettings
+enable-nolib-creation: no
+
+ignore:
+  - .gitignore
+  - .pkgmeta

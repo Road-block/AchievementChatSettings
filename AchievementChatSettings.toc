@@ -1,9 +1,10 @@
 ## Interface: 30400
 ## Title: AchievementChatSettings
 ## Notes: Restores chatframe settings for Achievemets and Guild Achievements.
-## Version: 1.0
+## Version: 1.0.1
 ## Author: Road-block
 ## SavedVariablesPerCharacter: AchievementChatSettingsDBPC
 ## X-Website:https://github.com/Road-block/AchievementChatSettings/releases/latest
+## X-Curse-Project-ID: 725666
 
 core.lua
