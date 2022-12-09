@@ -90,7 +90,7 @@ end
 
 function acs:RestoreSettings()
    if not ChatTypeInfo["ACHIEVEMENT"] then
-      ChatTypeInfo["ACHIEVEMENT"] = { sticky = 0, flashTab = false, flashTabOnGeneral = false }
+      ChatTypeInfo["ACHIEVEMENT"] = { sticky = 0, flashTab = false, flashTabOnGeneral = false, r=1.0, g=1.0, b=1.0, id=GetChatTypeIndex("ACHIEVEMENT") }
       acs._userSave["ACHIEVEMENT"] = true
    end
    if not ChatTypeGroup["ACHIEVEMENT"] then
@@ -99,7 +99,7 @@ function acs:RestoreSettings()
       }
    end
    if not ChatTypeInfo["GUILD_ACHIEVEMENT"] then
-      ChatTypeInfo["GUILD_ACHIEVEMENT"] = { sticky = 0, flashTab = true, flashTabOnGeneral = false }
+      ChatTypeInfo["GUILD_ACHIEVEMENT"] = { sticky = 0, flashTab = true, flashTabOnGeneral = false, r=1.0, g=1.0, b=1.0, id=GetChatTypeIndex("GUILD_ACHIEVEMENT") }
       acs._userSave["GUILD_ACHIEVEMENT"] = true
    end
    if not ChatTypeGroup["GUILD_ACHIEVEMENT"] then
