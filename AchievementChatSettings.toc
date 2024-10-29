@@ -1,4 +1,4 @@
-## Interface: 30400
+## Interface: 40401
 ## Title: AchievementChatSettings
 ## Notes: Restores chatframe settings for Achievemets and Guild Achievements.
 ## Version: 1.0.2
